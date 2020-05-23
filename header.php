@@ -9,5 +9,13 @@
     <?php wp_head(); ?>
 </head>
 <body>
+<?php
 
+the_custom_logo();
+
+wp_nav_menu(
+        array(
+                'menu' => 'menu-navegacao'
+        )
+);
 
